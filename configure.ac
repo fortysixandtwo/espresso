@@ -811,6 +811,7 @@ AC_CONFIG_FILES([
 	doc/tutorials/06-active_matter/Makefile 
 	doc/tutorials/07-electrokinetics/Makefile 
 	doc/tutorials/08-visualization/Makefile 
+	doc/tutorials/09-ffs_with_freshs/Makefile
 	doc/latexit.sh
 	])
 AC_CONFIG_FILES([testsuite/runtest.sh],

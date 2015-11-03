@@ -1,0 +1,54 @@
+\documentclass[
+paper=a4,                       % paper size
+fontsize=11pt,                  % font size
+headinclude=false,              % header does not belong to the text
+footinclude=false,              % footer does not belong to the text
+pagesize,                       % set the pagesize in a DVI document
+]{scrartcl}
+
+\include{common}
+
+
+\newcommand{\freshs}{\mbox{\textsf{FRESHS}}\xspace}
+
+
+\begin{document}
+
+\esptitlehead
+
+\title{Setting up \es{} for FFS sampling with \freshs}
+
+\author{E. Ribeiro Tzaras}
+
+\maketitle
+
+\section{Introduction}
+
+Welcome to the forward flux sampling (FFS) \es{} tutorial!
+
+This tutorial assumes basic \es{} and FFS knowledge. We will use the software package \freshs which so far has three rare event sampling techniques implemented, namely SPRES, FFS and PERMFFS.
+We will focus on the direct FFS method (sometimes called dFFS in the literature) to drive a system through a transition.
+General instructions for arbitrary rare event systems will be accompanied by a model system of unbiased polymertranslocation.
+First we will discuss how to setup the \freshs server and client configurations, as shown in Sec.~\ref{sec:freshs_setup}.
+%\es{} can be used with advanced sampling techniques such as FFS (forward flux
+%sampling) with \freshs (flexible rare event sampling harness system).
+
+\section{\freshs Setup} \label{sec:freshs_setup}
+
+
+\section{Changes to your simulation script} \label{sec:simulation_script}
+
+
+\section{Running your simulation} \label{sec:run_ffs}
+
+
+
+\section{Obtaining transition rates and interface statistics} \label{sec:freshs_analysis}
+
+
+
+
+
+
+
+\end{document}

@@ -1,0 +1,33 @@
+\documentclass[
+paper=a4,                       % paper size
+fontsize=11pt,                  % font size
+headinclude=false,              % header does not belong to the text
+footinclude=false,              % footer does not belong to the text
+pagesize,                       % set the pagesize in a DVI document
+]{scrartcl}
+
+\include{common}
+
+
+\newcommand{\freshs}{\mbox{\textsf{FRESHS}}\xspace}
+
+
+\begin{document}
+
+\esptitlehead
+
+\title{Setting up \es{} for FFS sampling with \freshs}
+
+\author{E. Ribeiro Tzaras}
+
+\maketitle
+
+\section{Introduction}
+
+Welcome to the forward flux sampling (FFS) \es{} tutorial!
+
+This tutorial assumes basic \es{} and FFS knowledge. In the first part
+%\es{} can be used with advanced sampling techniques such as FFS (forward flux
+%sampling) with \freshs (flexible rare event sampling harness system).
+
+\end{document}
